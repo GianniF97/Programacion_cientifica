@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="imagenes">
+    <file>copy.png</file>
+    <file>generar.png</file>
+  </qresource>
+</RCC>
