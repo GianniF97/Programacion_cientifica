@@ -9,11 +9,11 @@ app = QApplication(sys.argv)
 
 # Crear una ventana
 ventana = QMainWindow()
-ventana.setWindowTitle('Hola Mundo!')
+ventana.setWindowTitle('Hola PyS!')
 
 # Crear una etiqueta y mostrar todo junto
 etiqueta = QLabel(ventana, alignment=Qt.AlignCenter)
-etiqueta.setText('Hola Mundo!')
+etiqueta.setText('Hola desde PySide6!')
 ventana.setCentralWidget(etiqueta)
 
 ventana.resize(300, 200)
