@@ -13,6 +13,14 @@ class MainWindow(QMainWindow):
 
         # Evento: clic en el botón
         self.pushButton_mensaje.clicked.connect(self.tamanio)
+        self.pushButton_limpiar.clicked.connect(self.limpiar)
+        self.pushButton_salir.clicked.connect(self.salir)
+
+    def limpiar(self):
+        self.label_texto.clear()
+
+    def salir(self):
+        self.close()
 
     def tamanio(self):
         texto = random.choice(textos) 

@@ -71,6 +71,20 @@
             </property>
            </widget>
           </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_limpiar">
+            <property name="text">
+             <string>Limpiar</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_salir">
+            <property name="text">
+             <string>Salir</string>
+            </property>
+           </widget>
+          </item>
          </layout>
         </widget>
        </item>
